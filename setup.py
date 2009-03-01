@@ -7,6 +7,7 @@ import exetractor
 
 setup(
     name='exetractor',
+    author='Andreas Stuehrk',
     license=exetractor.__license__,
     version=exetractor.__version__,
     packages=['exetractor'],

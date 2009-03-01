@@ -5,6 +5,9 @@
     ~~~~~~~~~~
 
     A far from complete unpacker for packed Python executables.
+
+    :copyright: (c) 2009 by Andreas Stührk
+    :license: modified BSD, see LICENSE for more details.
 """
 
 from __future__ import with_statement

@@ -5,7 +5,10 @@
     exetractor.pyinstaller
     ~~~~~~~~~~~~~~~~~~~~~~
 
-   Extractor for executable files created with PyInstaller.
+    Extractor for executable files created with PyInstaller.
+
+    :copyright: (c) 2009 by Andreas Stührk
+    :license: modified BSD, see LICENSE for more details.
 """
 
 
