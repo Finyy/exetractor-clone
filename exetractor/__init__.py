@@ -23,7 +23,7 @@ def main(args=sys.argv[1:]):
     from exetractor import py2exe, pyinstaller
     if len(args) != 1:
         print >> sys.stderr, 'Usage: exetract <path to exe>'
-        raise SystemExit(1)
+        return 1
     with open(args[0], 'rb') as exe_file:
         exe_data = exe_file.read()
     if py2exe.is_valid_data(exe_data):
@@ -32,7 +32,8 @@ def main(args=sys.argv[1:]):
         pyinstaller.unpack(exe_data)
     else:
         print >> sys.stderr, 'unsupported file type'
-        raise SystemExit(2)
+        return 1
+    return 0
 
 
 if __name__ == '__main__':
