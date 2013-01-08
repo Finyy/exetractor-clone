@@ -20,7 +20,7 @@ from os.path import basename
 
 from pefile import PE
 
-from .common import wrap_stdio
+from common import wrap_stdio
 
 
 class ScriptInfo(object):

@@ -20,13 +20,13 @@ import sys
 from dis import disassemble
 from zlib import decompress
 
-from .common import wrap_stdio
+from common import wrap_stdio
 
 
 class Cookie(object):
     # COOKIE magic (see source/common/launch.h)
     MAGIC = 'MEI\014\013\012\013\016'
-   
+
     def __init__(self, data):
         assert data.startswith(Cookie.MAGIC)
         data = data[len(Cookie.MAGIC):]

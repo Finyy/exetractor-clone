@@ -20,9 +20,9 @@ __license__ = 'modified BSD'
 
 
 def main(args=sys.argv[1:]):
-    from exetractor import py2exe, pyinstaller
+    import py2exe, pyinstaller
     if len(args) != 1:
-        print >> sys.stderr, 'Usage: exetract <path to exe>'
+        print >> sys.stderr, 'Usage: %s <path to exe>' % sys.argv[0]
         return 1
     with open(args[0], 'rb') as exe_file:
         exe_data = exe_file.read()
