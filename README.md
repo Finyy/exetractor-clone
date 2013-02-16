@@ -10,7 +10,7 @@ Usage: exetractor.py <path to exe>
 
 For PyInstaller generated apps, use ArchiveExtractor.py utility.
 
-1. Extract pyc (and py) files using ArchiveExtractor.py utility,
+* Extract pyc (and py) files using ArchiveExtractor.py utility,
 
 ```
 
@@ -22,7 +22,7 @@ Extracting source to output/hello.py
 File(s) were extracted to output directory.
 ```
 
-2. Use uncompyle2 to decompile pyc files,
+* Use uncompyle2 to decompile pyc files,
 
 ```
 
