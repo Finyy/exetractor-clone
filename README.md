@@ -14,7 +14,7 @@ For PyInstaller generated apps, use ArchiveExtractor.py utility.
 
 ```
 
-$ python2 utils/ArchiveExtractor.py ~/testapp
+$ python2 ArchiveExtractor.py ~/testapp
 ...
 Extracting bytecode to output/mylib.pyc
 Extracting source to output/hello.py
